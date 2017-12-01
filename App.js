@@ -75,7 +75,7 @@ movieNameInputChanged(text) {
       origional_title: json.results[0].vote_average,
       backdrop_path: json.results[0].backdrop_path,
       poster_path: json.results[0].poster_path,
-      total_results: json.total_results,
+      total_results: json.results[0].total_results,
       voter_average: json.results[0].vote_average,
       overview: json.results[0].overview
     })
